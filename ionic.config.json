@@ -1,0 +1,7 @@
+{
+  "name": "nods",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
