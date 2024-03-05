@@ -71,8 +71,8 @@
     height: -10%; /* O ajusta la altura según sea necesario */
   }
   ion-button{
-    
-    --color: rgb(237, 245, 245);
+     --color: rgb(237, 245, 245);
+     
   }
   .nodos{
     width:auto ;
@@ -88,3 +88,10 @@
 .contenido{
   margin-block-start: 200px;
 }
+
+  
+/* Estilo para subrayar */
+.subrayado {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,66 @@
+<ion-header [translucent]="true">
+  <ion-toolbar  >
+    <ion-img class="logo" src="https://inndustrial.com/storage/usuarios/images/large/15982867685f43ebb022ebf.png"alt="The"></ion-img>
+    <ion-title slot="end"><ion-icon   
+      name="exit-outline" size="large"    (click)="irAPagina('home')"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="admin">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="auto">
+        <div>
+          <ion-card class="menu">
+            <ion-button color="light" expand="full" (click)="irAPagina('timbrar')"><span class="subrayado">Control Horarios</span></ion-button>
+            <ion-button color="light" expand="full" (click)="irAPagina('horarios')">Control Horarios
+            </ion-button>
+            <ion-button color="light" expand="full" (click)="irAPagina('caja')">Cierre Caja</ion-button>
+          </ion-card>
+      </div>
+    </ion-col>
+
+
+      <div class="contenido">
+        
+        <ion-card>
+                <ion-item>
+                  <ion-label>Punto:</ion-label>
+                  <ion-select [(ngModel)]="punto">
+                    <ion-select-option value="1">ENGATIVA </ion-select-option>
+                    <ion-select-option value="2">KENDDY</ion-select-option>
+                    <ion-select-option value="3">ROMA</ion-select-option>
+                    <ion-select-option value="4">PATIO</ion-select-option>
+                    <ion-select-option value="5">FONTIBON</ion-select-option>
+                    <ion-select-option value="6">GALERIAS</ion-select-option>
+                  </ion-select>
+                </ion-item>
+              </ion-card>
+              <ion-card>
+                <ion-item>
+                  <ion-label position="fixed" style="width: 80px;" >Cedula operador</ion-label>
+                  <ion-input  [(ngModel)]="cedula" ></ion-input>
+                </ion-item>
+              </ion-card>
+            
+              <ion-card>
+                <ion-item>
+                  <ion-label position="fixed" style="width: 80px;">Nombre completo :</ion-label>
+                  <ion-input  [(ngModel)]="nombre"></ion-input>
+                </ion-item>
+              </ion-card>
+              <ion-card>
+                <ion-item>
+                  <ion-label position="fixed" style="width: 80px;">Codigo nomina</ion-label>
+                  <ion-input [(ngModel)]="codigo"></ion-input>
+                </ion-item>
+              </ion-card>
+              <ion-button slot="end"  color="light" (click)="irAPagina('nuevo-mensajero')">Guardar</ion-button>
+      </div>
+              
+
+           
+      
+    
+
