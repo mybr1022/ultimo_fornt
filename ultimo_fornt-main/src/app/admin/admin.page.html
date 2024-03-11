@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar  >
+    <ion-img class="logo" src="https://inndustrial.com/storage/usuarios/images/large/15982867685f43ebb022ebf.png"alt="The"></ion-img>
+    <ion-title slot="end"><ion-icon   
+      name="exit-outline" size="large"    (click)="irAPagina('home')"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="admin">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="auto"><div>
+        <ion-card class="menu">
+          <ion-button  color="light" expand="full" (click)="irAPagina('timbrar')" >Registro Operarios</ion-button>
+          <ion-button  color="light" expand="full" (click)="irAPagina('horarios')" >Control Horarios</ion-button>
+          <ion-button  color="light" expand="full" (click)="irAPagina('caja')" >Cierre Caja</ion-button>
+        </ion-card>
+      </div></ion-col>
+      <ion-col>
+        <div>//contenedor vacio
+          
+        </div>
+      </ion-col>
+      
+    </ion-row>
+  </ion-grid>
+  

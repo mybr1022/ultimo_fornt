@@ -1,0 +1,91 @@
+.menu{
+    width: 180px;
+    margin-top: auto;
+    margin-left: auto;
+    height:550px;
+}
+
+
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  ion-menu::part(backdrop) {
+    background-color: rgba(248, 248, 248, 0.5);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px rgba(247, 32, 32, 0.18);
+  }
+  
+  .logo{
+    max-width: 125px;
+    height: 125px;
+    padding: .5em;
+    height: 12vh;
+  }
+  
+  
+  ion-toolbar {
+    --background: rgb(219, 8, 8);
+  }
+  
+  
+  ion-card{
+    
+    filter: drop-shadow(3px 4px 4px #444);
+    
+  }
+  .container {
+    width: 340px;
+    
+    filter: drop-shadow(3px 4px 4px #444);
+    margin-block-start: -30%;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: -10%; /* O ajusta la altura según sea necesario */
+  }
+  ion-button{
+    
+    --color: rgb(237, 245, 245);
+  }
+  .nodos{
+    width:auto ;
+    height: 0px;
+  }
+/* Estilos para los botones cuadrados */
+.btn.btn-primary.square {
+    
+    background-color: #d81313;
+    color: #010101;
+}
+
+/* Estilo para subrayar */
+.subrayado {
+  text-decoration: underline;
+}

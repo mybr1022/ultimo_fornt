@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-img class="logo"
+    src="https://inndustrial.com/storage/usuarios/images/large/15982867685f43ebb022ebf.png"
+    alt="The"></ion-img>
+     
+  </ion-toolbar>
+</ion-header>
+
+>
+
+  
+
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col><ion-content padding>
+          
+        </ion-content >
+        <div class="container">
+        <ion-card >
+          
+          
+            <ion-card-header  class="ion-text-left" style="background-color: #BF0000; color: white;">Inicio de sesion</ion-card-header>
+            <ion-card-header class="nodos" style="background-color: #888686; color: white;">NODOS</ion-card-header>
+
+            <ion-card-content>
+              <ion-item>
+                <ion-label  >Usuario:</ion-label>
+                <ion-input [(ngModel)]="username" placeholder="usuario" type="text" id="username" style="width: 80px;"></ion-input>
+              </ion-item>
+            
+              <ion-item>
+                <ion-label  >Password:</ion-label>
+                <ion-input placeholder="contraseña" [(ngModel)]="password" name="Password" type="password" id="Password" style="width: 80px;"></ion-input>
+              </ion-item>
+            
+              <ion-item lines="none" style="text-align: center;">
+                <ion-button class="ion-text-center" (click)="ingresar()" style="width: 140px;">Ingresar</ion-button>
+              </ion-item>
+            </ion-card-content>
+            
+            
+          </ion-card>
+        </div>
+
+        </ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+    </ion-grid>
+
+  
+  </div>
+
