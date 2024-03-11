@@ -26,7 +26,11 @@ const routes: Routes = [
   {
     path: 'caja',
     loadChildren: () => import('./caja/caja.module').then( m => m.CajaPageModule)
+  },  {
+    path: 'nuevo-mensajero',
+    loadChildren: () => import('./nuevo-mensajero/nuevo-mensajero.module').then( m => m.NuevoMensajeroPageModule)
   },
+
 ];
 
 @NgModule({
